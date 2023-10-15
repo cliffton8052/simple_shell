@@ -42,6 +42,7 @@ int main(void)
 {
 	char sentence[100];
 	int word_count = count_words(sentence);
+
 	strcpy(sentence, "BETTY CHECKED");
 
 	printf("BETTY CHECKED: ");
