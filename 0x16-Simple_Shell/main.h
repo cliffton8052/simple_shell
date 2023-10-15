@@ -13,8 +13,8 @@
 
 typedef struct
 {
-        char name[MAX_INPUT_SIZE];
-        char value[MAX_INPUT_SIZE];
+	char name[MAX_INPUT_SIZE];
+	char value[MAX_INPUT_SIZE];
 } Alias;
 
 Alias aliases[MAX_ALIASES];
